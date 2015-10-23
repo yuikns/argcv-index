@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+import "index/msg/lmt_msg.proto";
+
+message op_msg {
+    required string op = 1;
+    optional string id = 2;
+    optional string title = 3;
+    optional string names = 4;
+    optional lmt_msg lmt = 5;
+}
+
+

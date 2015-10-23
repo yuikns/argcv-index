@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+import "index/msg/lmt_msg.proto";
+
+message resp_mes {
+    required lmt_msg lmt = 1;
+    repeated int32 pids = 2;
+}

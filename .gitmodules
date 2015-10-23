@@ -1,0 +1,4 @@
+[submodule "lib/argcv"]
+	path = lib/argcv
+	url = git@github.com:argcv/argcv.git
+	branch = master
